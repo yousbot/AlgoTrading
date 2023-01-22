@@ -3,6 +3,14 @@
 
 This project provides a tool for simulating the performance of the S&P500 market using historical data and different trading strategies.
 
+## Rules
+
+* You can open one position per day
+* You can open one position at a time ( to open you need to close )
+* Your function is to maximize profit 
+* You can use any historical data of any market, with the csv file having to have two columns ( Date / Close ) 
+* **close** refers to the price of the closing market each day*
+
 ## Features
 
 * Simulation of the S&P500 market performance over different periods of time (2023 Personal Projection)
