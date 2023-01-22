@@ -34,8 +34,15 @@ var1,var2,var3,var4,var5,var6,num1,num2,num3,num4,num5,num6
 
 Once the script finishes, the result you get is as follow :
 ```python
-# Example of 2mo period of SP500 ( November 22 -> January 23 )
-Top Profit : 17791 = combination : ('long', 'short', 'long', 'long', 'long', 'long') (1, 3, 3, 1, 1, 1, 2, 3)
+# Example of 2023 period ( first 18 days ) 
+Top Profit : $644 = combination : ('short', 'long', 'short', 'long', 'long', 'long') (1, 3, 2, 1, 1, 1, 1, 1)
+# Example of 2 months period of SP500 ( November 22 -> January 23 )
+Top Profit : $17791 = combination : ('long', 'short', 'long', 'long', 'long', 'long') (1, 3, 3, 1, 1, 1, 2, 3)
+# Example of 1 year period ( first 18 days ) 
+Top Profit : $156119 = combination : ('long', 'short', 'long', 'long', 'short', 'long') (1, 3, 3, 3, 1, 1, 2, 3)
+# Example of 2 years period ( first 18 days ) 
+Top Profit : $5576 = combination : ('long', 'short', 'long', 'short', 'long', 'long') (1, 3, 2, 2, 1, 1, 2, 3)
+
 ```
 The script used simulates a usage of $500 deposit, leveraged at 20.
 
