@@ -9,6 +9,8 @@ global_data = []
 
 print("\n")
 
+# Uncomment only one csv file, depending on the period you want to simulate
+
 data2 = pd.read_csv('BTC-USD.csv')
 previous_close = 22321.765625
 global_data.append((" BTC ",data2,previous_close))
